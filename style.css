@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+:root {
+    --primary-color: lightseagreen;
+    --secondary-color: dimgrey;
+    --tertiary-color: gainsboro;
+    --shadow-color: #03605b;
+}
+
+body {
+    background-color: var(--primary-color);
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+}
+
+#container {
+    height: 590px;
+    width: 400px;
+    margin: 100px auto;
+    background-color: rgba(255, 255, 255, 0.884);
+    box-shadow: 5px 5px 5px var(--shadow-color);
+    border-radius: 20px;
+}
+
+.title {
+    background: var(--tertiary-color);
+    color: var(--secondary-color);
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: normal;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+}
+
+.tipsform {
+    padding: 20px;  
+}
+
+.formInput {
+    background: rgba(255, 255, 255, 0.795);
+    width: 50px;
+    padding: 5px 5px 5px 5px;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    font-size: 12px;
+}
+
+.formInput:focus {
+    border: 3px solid var(--primary-color);
+    outline: none;
+}
+
+.formselect {
+    width: 190px;
+    padding: 5px;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    background:  rgba(255, 255, 255, 0.795);
+}
+
+.formsubmit {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 20px auto;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font: 18px;
+    color: white;
+    border: none;
+    transition: 1s;
+}
+
+.formsubmit:hover {
+    transform: scale(1.05);
+}
+
+#totaltip {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 3px;
+}
